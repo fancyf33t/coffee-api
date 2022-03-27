@@ -1,0 +1,120 @@
+/* header */
+.top-nav a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+/* home page styling */
+.coffee-choice {
+    border: 2px solid black;
+    margin-top: 100px;
+    width: 300px;
+    height: 245px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    /* box-shadow: 2px 2px 2px black; */
+}
+.coffee-choice:hover {
+    /* transition: 1s ease-in; */
+    box-shadow: 2px 2px 2px black;
+}
+.type-header {
+    color: red;
+    text-align: center;
+}
+
+body{
+    background-image: url("../media/coffee-ground-background.jpg");
+}
+/* main styling */
+.coffee-type {
+    border: 2px solid black;
+    font-size: 50px;
+    height: 200px;
+    width: 250px;
+    text-align: center;
+    padding-top: 40px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    text-transform: uppercase;
+}
+.coffee-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* tech stack */
+
+.tech-stack-header {
+    color: aliceblue;
+}
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+.tech-section {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.icon {
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.text-box {
+    background-color: antiquewhite;
+    opacity: 70%;
+    border-radius: 4px;
+    padding: 10px;
+}
+.figure-coffee a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: aliceblue;
+}
+
+
+/* footer */
+.footer {
+    background-color: aliceblue;
+    opacity: 70%;
+    height: 90px;
+}
+
+/* hot-single styling */
+.main-single {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.figure-single-info {
+    background-color: antiquewhite;
+    opacity: 70%;
+}
+
+/* iced-single styling */
+.main-iced {
+    height: 80vh;
+}
+
+.section-single {
+    margin: 10px;
+}
+#imagination {
+    color: rgb(255, 0, 179);
+}

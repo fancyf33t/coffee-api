@@ -1,0 +1,15 @@
+<%- include('../partials/header'); %>
+<main class="main main-iced container">
+    <h2 class="main-h2"><%= name %></h2>
+    <section class="section-iced row">
+        <% data.forEach(item => { %>
+            <figure class="figure figure-coffee col-md-4 d-flex justify-content-around">
+                <a href="/iced/<%= item.id %>">
+                    <h3 class="main-iced-name"><%= item.title %></h3>
+                    <img src="<%= item.image %>" alt="">
+                </a>
+            </figure>
+        <% }) %>
+    </section>
+</main>
+<%- include('../partials/footer'); %>

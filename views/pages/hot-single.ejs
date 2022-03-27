@@ -1,0 +1,20 @@
+<%- include('../partials/header'); %>
+<main class="main main-single container">
+    <h2 class="main-h2"><%= data.title %></h2>
+    <section class="section section-single row">
+        <figure class="figure figure-single col-md-6">
+            <img src="/media/coffeecup.jpg" alt="<%= data.title %>" class="img-fluid rounded">
+        </figure>
+        <figure class="figure figure-single-info col-md-6">
+            <ul class="figure-description">Ingredients:
+                <li><%= data.ingredients %></li>
+            </ul>
+            <ul class="figure-description">Descriptions:
+                <li><%= data.description %></li>
+            </ul>
+            <h4>Tasting Notes:</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam culpa fuga voluptatibus velit quam, consequatur tenetur qui, quasi, odio at iure sit cum omnis accusantium ratione officiis iusto? Nesciunt?</p>
+        </figure>
+    </section>
+</main>
+<%- include('../partials/footer'); %>
